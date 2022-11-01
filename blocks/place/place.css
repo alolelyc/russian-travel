@@ -1,0 +1,30 @@
+.place {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(460px, 1fr));
+  gap: 48px 40px;
+  align-items: start;
+  list-style-type: none;
+  max-width: 984px;
+}
+
+
+@media screen and (max-width: 1124px) {
+  .place {
+    max-width: 928px;
+    gap: 48px 32px;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .place {
+    max-width: 720px;
+    gap: 48px 28px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .place {
+    max-width: 320px;
+    gap: 32px;
+  }
+}

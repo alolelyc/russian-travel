@@ -1,0 +1,31 @@
+.place__story {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 484px;
+  margin: 0;
+}
+
+
+@media screen and (max-width: 1124px) {
+  .place__story {
+    max-width: 456px;
+
+  }
+}
+
+
+@media screen and (max-width: 984px) {
+  .place__story {
+    max-width: 352px;
+
+  }
+}
+
+
+@media screen and (max-width: 568px) {
+  .place__story {
+    max-width: 288px;
+    margin: 0 16px;
+  }
+}
