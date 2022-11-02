@@ -5,6 +5,8 @@
   align-items: start;
   list-style-type: none;
   max-width: 984px;
+  margin: 0;
+  padding: 0;
 }
 
 
@@ -24,6 +26,7 @@
 
 @media screen and (max-width: 568px) {
   .place {
+    grid-template-columns: repeat(1, auto);
     max-width: 320px;
     gap: 32px;
   }
