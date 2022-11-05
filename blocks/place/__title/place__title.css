@@ -4,12 +4,9 @@
   line-height: 76px;
   margin: 0;
   text-align: left;
-  max-width: 460px;
 }
 
-
-
-@media screen and (max-width: 1124px) {
+@media screen and (max-width: 1152px) {
   .place__title {
     max-width: 440px;
   }
