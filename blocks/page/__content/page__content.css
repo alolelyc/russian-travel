@@ -6,18 +6,18 @@
 @media screen and (max-width: 1152px) {
   .page__content {
     margin-top: 48px;
-   }
+  }
 }
 
 @media screen and (max-width: 984px) {
   .page__content {
     margin-bottom: 88px;
-   }
+  }
 }
 
 
 @media screen and (max-width: 568px) {
   .page__content {
     margin-bottom: 64px;
-   }
+  }
 }
