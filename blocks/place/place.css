@@ -1,6 +1,6 @@
 .place {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(460px, 1fr));
+  grid-template-columns: 460px 1fr;
   gap: 40px 48px;
   align-items: start;
   list-style-type: none;
@@ -13,7 +13,7 @@
 
 @media screen and (max-width: 1152px) {
   .place {
-    grid-template-columns: repeat(auto-fit, minmax(440px, 1fr));
+    grid-template-columns: 440px 1fr;
     max-width: 928px;
     grid-column-gap: 32px;
   }
@@ -21,7 +21,7 @@
 
 @media screen and (max-width: 984px) {
   .place {
-    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    grid-template-columns: 340px 1fr;
     max-width: 720px;
     grid-column-gap: 28px;
   }
